@@ -247,6 +247,7 @@ namespace CK2_Mod_Editor.Tooling.Map
                 }
             }
             b.Save("C:/Users/Joe/parsedmap.png");
+            Console.WriteLine(String.Format("Map output to {0}", "C:/Users/Joe/parsedmap.png"));
 
         }
 
